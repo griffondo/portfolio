@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: fantasy;
+}
+
+.hero{
+    width: auto;
+    height: auto;
+
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 50px;
+}
+nav ul li{
+    list-style: square;
+    display: inline-flex;
+    padding: 10px 20px;
+}
+.bio{
+    position: relative;
+    top:auto;
+}
+.bio .title{
+    color: maroon;
+    font-size: 30px;
+    margin: 50px;
+}
+.bio h1{
+    color: black;
+    font-size: 50px;
+    margin: 10px;
+}
+.bio p{
+    color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    margin-top: 20px;
+    margin: 40px;
+
+}
